@@ -29,7 +29,7 @@ nav{
     justify-content: space-around;
     padding: 10px 30px;
     background-color:#fff;
-    box-shadow: 2px 2px 20px rgba(90,118,253,0.13);
+    box-shadow: 2px 2px 20px #471a7210;
     z-index: 1;
     width:100%;
     position: fixed;
@@ -45,7 +45,7 @@ nav ul li a{
     height:40px;
     line-height: 43px;
     margin: 8px;
-    padding: 0px 22px;
+    padding: 0px 20px;
     display: flex;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -102,6 +102,7 @@ nav ul li a:hover{
 .main-login{
     width:150px;
     height:40px;
+    border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -117,7 +118,7 @@ nav ul li a:hover{
 
 .timing{
     position: absolute;
-    left:33%;
+    left:35%;
     bottom: 10px;
     transform: translateX(-20%);
     display: flex;
@@ -142,13 +143,13 @@ nav ul li a:hover{
 }
 .office-time font,
 .office-number font{
-    color:#7b92fd;
+    color:#481A72;
     font-weight: 700;
 }
 .arrow{
     align-self: end;
     width:50%;
-    border-right: 1px solid #5a76fd;
+    border-right: 1px solid #481A72;
     height: 20%;
     margin-bottom:4em ;
     position: absolute;
@@ -164,7 +165,7 @@ nav ul li a:hover{
     height: 0;
     border-style: solid;
     border-width: 11px 11px 0px 11px;
-    border-color: #5a76fd transparent transparent transparent;
+    border-color: #481A72 transparent transparent transparent;
     right: -0.7em;
     bottom: -2px;
 }
@@ -222,10 +223,10 @@ nav ul li a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width:300px;
-    height: 400px;
+    width:25%;
+    height: 350px;
     text-align: center;
-    box-shadow: 2px 2px 20px rgba(90,118,253,0.15);
+    box-shadow: 2px 2px 20px #471a7210;
     border-radius: 10px;
     background-color: #fff;
     margin: 20px;
@@ -237,10 +238,10 @@ nav ul li a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width:700px;
+    width: 730px;
     height: 600px;
     text-align: center;
-    box-shadow: 2px 2px 20px rgba(90,118,253,0.15);
+    box-shadow: 2px 2px 20px #471a7210;
     border-radius: 10px;
     background-color: #fff;
     margin: 20px;
@@ -252,14 +253,60 @@ nav ul li a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width:200px;
+    width: 100px;
     height: 600px;
     text-align: center;
-    box-shadow: 2px 2px 20px rgba(90,118,253,0.15);
+    box-shadow: 2px 2px 20px #471a7210;
     border-radius: 10px;
     background-color: #fff;
     margin: 20px;
     flex-grow: 1;
+}
+
+.card_left img{
+    height:150px;
+    margin:10px;
+}
+
+.card_left font{
+    font-size: 1.5rem;
+    color: #22252e;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.card_left p{
+    font-size: 1rem;
+    color: #777474;
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 500px;
+}
+
+.card_left a{
+    width:150px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #481A72;
+    text-transform: uppercase;
+    margin: auto;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color:#481A72;
+    margin:0px;
+}
+.card_left a:hover{
+    background-color: #481A72;
+    color:#fff;
+    box-shadow: 5px 10px 30px #471a7252;
+    transition: all ease 0.3s;
 }
 
 
@@ -290,19 +337,19 @@ nav ul li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid #5a76fd;
+    border: 2px solid #481A72;
     text-transform: uppercase;
     margin: auto;
     border-radius: 5px;
     font-weight: 600;
     font-size: 0.9rem;
-    color:#5a76fd;
+    color:#481A72;
     margin:0px;
 }
 .box a:hover{
-    background-color: #5a76fd;
+    background-color: #481A72;
     color:#fff;
-    box-shadow: 5px 10px 30px rgba(90,118,253,0.5);
+    box-shadow: 5px 10px 30px #471a7252;
     transition: all ease 0.3s;
 }
 footer{
@@ -331,7 +378,7 @@ nav .menu-btn{
         top: 65px;
         left: 0px;
         background-color: #fff;
-        border-bottom: 4px solid #5a76fd;
+        border-bottom: 4px solid #481A72;
         width:100%;
     }
     .menu li{
@@ -412,7 +459,7 @@ nav .menu-btn{
         margin:0px;
         position: static;
         transform: translate(0px,70px);
-        background-image: url("..images/main-bg-1.png");
+        background-image: url("images/bg-1.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: top right;
@@ -502,7 +549,6 @@ nav .menu-btn{
     }
 }
 
-
 form.example input[type=text] {
     padding: 10px;
     font-size: 12px;
@@ -510,23 +556,25 @@ form.example input[type=text] {
     float: left;
     width: 80%;
     background: #f1f1f1;
+    border-radius: 5px;
   }
   
   form.example button {
     float: left;
     width: 20%;
+    margin-left: -5px;
     padding: 10px;
     background: #421a68;
     color: white;
     font-size: 12px;
     border: 1px solid grey;
     border-left: none;
-    border-radius: 50px;
+    border-radius: 5px;
     cursor: pointer;
   }
   
   form.example button:hover {
-    background: #331252;
+    background: #471a7252;
   }
   
   form.example::after {
