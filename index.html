@@ -6,39 +6,111 @@
 <meta name="viewport" content="width=device-width, intial-scale=1.0">
 <title>MTS port.</title>
 <link rel="stylesheet" href="style.css"/>
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="shortcut icon" href="images/fav-icon.png">
 </head>
 
 <body>
+
     <section class="main">
         <nav>
-
+            <a href="#" class="logo">
+                <img src="images/mts-port-logo.png"/>
+            </a>
+            <input class="menu-btn" type="checkbox" id="menu-btn"/>
+            <label class="menu-icon" for="menu-btn">
+                <span class="nav-icon"></span>
+            </label>
             <ul class="menu">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Contact</a></li>
                 <li><a href="#">Account</a></li>
                 <li><a href="#">Plan</a></li>
-                <li><a href="#">Payment</a></li>
-                <li><a href="#">Notices</a></li>
-                <li><a href="#">Team</a></li>
+                
+                <form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
+                <input type="text" placeholder="Search.." name="search2">
+                <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
             </ul>
         </nav>
       
         <div class="home-content">
-            
+            <div class="home-img">
+                <img src="images/home-bg-1.png"/>
+            </div>
             <div class="home-text">
                 <h1>5+ years of experience in DevOps</h1>
                 <p>31+ websites, 5+ web apps and 3+ playstore publications. Press See Portfolio to see my github repository link.</p>
             <a href="#" class="main-login">See Portfolio</a>
             </div>
-
-            <div class="home-img">
-                <img src="images/home-bg-1.png"/>
-            </div>
         </div>
 
+        <div class="timing">
+            <div class="office-time">
+                <h3>Office Hours</h3>
+                <p>Monday - Firday <font>8:00 AM - 6:00</font> PM CST</p>
+            </div>
+            
+            <div class="office-number">
+                <h3>Do you need to call us?<br/>We are here to listen</h3>
+                <p>Call <font>1-234-567-8912</font> During Business Hours.</p>
+            </div>
+        </div>
+        
         <div class="arrow"></div>
         <span class="scroll">Scroll</span>
     </section>
+    
+    <section class="services">
+        
+        <div class="services-heading">
+            <h2>Website Services Which We Provided.</h2>
+            <p>This site provides a confidential, discreet and hassle-free resolution and payment of a past due account. Please have the communication letter you have received from us ready as you will need it to log in.</p>
+        </div>
+        
+        <div class="box-container">
+            
+            <div class="box">
+                <img src="images/web-design.png">
+                <font>Title</font>
+                <p>Description</p>
+                <a href="#">Log In</a>
+            </div>
+            
+            <div class="box">
+                <img src="images/webdev.png">
+                <font>Title</font>
+                <p>Description</p>
+                <a href="#">View</a>
+            </div>
+            
+            <div class="box">
+                <img src="images/seo.png">
+                <font>Title</font>
+                <p>Description</p>
+                <a href="#">Select Plan</a>
+            </div>
+           
+            <div class="box">
+                <img src="images/">
+                <font>Title</font>
+                <p>Description</p>
+                <a href="#">Log In</a>
+            </div>
+            
+            <div class="box">
+                <img src="images/">
+                <font>Title</font>
+                <p>Description</p>
+                <a href="#">View</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <a href="#">A Portfolio Website Prototype of Md. Tarbiar Swat</a>
+        <p>Copyright (C) 2021. All Rights reserved.</p>
+    </footer>
+
 </body>
 </html>
