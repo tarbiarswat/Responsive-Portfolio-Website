@@ -403,6 +403,7 @@ nav .menu-btn{
     nav .menu-icon .nav-icon{
         background-color: #333333;
         display: block;
+        margin-left: -50px;
         height: 2px;
         position: relative;
         transition: background 0.2s ease-out;
@@ -455,7 +456,7 @@ nav .menu-btn{
         margin: 0px;
     }
     .home-content{
-        width:100%;
+        width: 450px;
         margin:0px;
         position: static;
         transform: translate(0px,70px);
@@ -487,6 +488,7 @@ nav .menu-btn{
    }
 }
 @media(max-width:720px){
+
     .home-text p{
         width:70%;
         text-align: center;
@@ -530,7 +532,7 @@ nav .menu-btn{
         width:100%;
     }
     .box{
-        width:100%;
+        width: 480px;
         margin: 20px 0px !important;
         padding: 0px 20px;
         flex-grow: 1;
